@@ -47,7 +47,8 @@ body {
 	font-size : 1.383em;
 	font-family : "Diplomata SC", "Ewert", cursive;
 }
-@media screen and (min-width:600px) {
+
+@media screen and (min-width: 600px) {
   body {
     font-size: 1.913em;
   }
@@ -60,6 +61,11 @@ body {
     margin-left: 1.8em;
  }
 }
+
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 2.178em;
+  }
   
   
 
