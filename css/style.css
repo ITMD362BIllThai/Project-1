@@ -9,6 +9,10 @@ body {
   font-size:1.296em;
 }
 
+fieldset{
+  background-color: #bfa443
+}
+
   #title {
     padding: .5em .5em .2em .5em;
 	margin: .5em .5em .2em .5em;
