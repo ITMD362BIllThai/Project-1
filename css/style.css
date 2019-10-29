@@ -1,1 +1,55 @@
+/*
+  Minor Second Modular Scale:
+  https://www.modularscale.com/?1&em&1.067
+*/
 
+body {
+  background-color: #ab0f0f;
+  color: #02121c;
+  font-size:1.296em;
+}
+
+  #title {
+    padding: .5em .5em .2em .5em;
+	margin: .5em .5em .2em .5em;
+	font-size:1.575em; 
+	font-family: "Diplomata SC", "Ewert", cursive;
+}
+
+  label {
+	display : block;
+	text-align :center;
+	font-size:1.215em;
+}
+  
+  input {
+	width : 90%;
+	border-radius: .5em;
+	border: solid #000000;
+}
+  
+  input[type="submit"] {
+	font-size : 1.383em;
+	font-family : "Diplomata SC", "Ewert", cursive;
+}
+  
+  input [type="text"] {
+	font-size : 1.138em;
+	font-family : "Diplomata SC", "Ewert", cursive;
+}
+  
+  input [type="email"] {
+    font-size : 1.383em;
+	font-family : "Diplomata SC", "Ewert", cursive;
+}
+
+  input [type="number"] {
+	font-size : 1.383em;
+	font-family : "Diplomata SC", "Ewert", cursive;
+}
+  
+
+  
+  
+  
+  
