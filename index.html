@@ -13,24 +13,24 @@
   <div id="title">
     <h2>Enlistment</h2>
   </div>
-  <form method="POST" autocomplete="on" action="#null">
+  <form autocomplete="on" name = "Form" onsubmit="return init()" action = "#">
     <div id="form_body">
 	  <fieldset>
 	    <div>
 		  <label id="first_name">First Name</label>
-		  <input type="text" name="firstname" placeholder=" First name">
+		  <input type="text" name="first_name" placeholder=" First name">
 		</div>
 		<div>
 		  <label id="last_name">Last Name</label>
-		  <input type="text" name="lastname" placeholder=" Last name">
+		  <input type="text" name="last_name" placeholder=" Last name">
 		</div>
 		<div>
-		  <label id="Email">Email</label>
-		  <input type="email" name="email" placeholder=" Email (i.e johndoe@USAF.gov)">
+		  <label>Email</label>
+		  <input type="email" name="Email_1" id="Email" placeholder=" Email (i.e johndoe@USAF.gov)">
 		</div>
 		<div>
 		  <label id="Phone_Number">Phone Number</label>
-		  <input type="number" name="phonefield">
+		  <input type="number" name="Phone_Number">
 		</div>
 	  </fieldset>
 	</div>
