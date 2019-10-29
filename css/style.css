@@ -12,13 +12,14 @@ body {
   #title {
     padding: .5em .5em .2em .5em;
 	margin: .5em .5em .2em .5em;
-	font-size:1.575em; 
+	text-align: center;
+	font-size:0.878em; 
 	font-family: "Diplomata SC", "Ewert", cursive;
 }
 
   label {
-	display : block;
-	text-align :center;
+	display: block;
+	text-align: center;
 	font-size:1.215em;
 }
   
@@ -46,6 +47,12 @@ body {
   input [type="number"] {
 	font-size : 1.383em;
 	font-family : "Diplomata SC", "Ewert", cursive;
+}
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media screen and (min-width: 600px) {
