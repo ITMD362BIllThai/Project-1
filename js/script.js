@@ -6,7 +6,7 @@ function init()
   var phone = document.getElementById("Phone_Number").value;
   
 
-    alert("Bow down " +fname+ " " +lname+ "for there is only the Emperor,and he is our Shield and Protector. An inquisitor will contact you shortly at " +email+ " or phone you at " +phone+ ".");
+    alert("Bow down " +fname+ "" +lname+ " for there is only the Emperor,and he is our Shield and Protector. An inquisitor will contact you shortly at " +email+ " or phone you at " +phone+ ".");
 
 }
 
