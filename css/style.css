@@ -47,6 +47,20 @@ body {
 	font-size : 1.383em;
 	font-family : "Diplomata SC", "Ewert", cursive;
 }
+@media screen and (min-width:600px) {
+  body {
+    font-size: 1.913em;
+  }
+
+  #title {
+    font-size: 1.5em;
+	margin-left: 3.5;
+ }
+  input[type=submit] {
+    margin-left: 1.8em;
+ }
+}
+  
   
 
   
